@@ -1,0 +1,153 @@
+body{
+	color:#555555;
+	font-size:13px;
+	background: #eeeeee;
+	font-family:Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+h1{
+	font-size:28px;
+	font-weight:bold;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+}
+
+h2{
+	font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+	font-size:14px;
+	letter-spacing:1px;
+	padding-left:2px;
+	white-space:nowrap;
+	margin-top:4px;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+h3{
+	font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+	font-size:14px;
+	letter-spacing:1px;
+	padding-left:2px;
+	white-space:nowrap;
+	margin-top:4px;
+	color:#FFF;
+	text-align: right;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#main p{
+	padding-bottom:8px;
+	text-align: left;
+}
+
+.clear{
+	clear:both;
+}
+
+#main{
+	width:800px;
+	/* Centering it in the middle of the page */
+	margin:60px auto;
+}
+
+.container{
+	margin-top:20px;
+	background:#1E1E1E;
+	border:thin solid #000000;
+	padding:15px;
+	/* Rounded corners */
+	/*-moz-border-radius:20px;
+	-khtml-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius:20px;*/
+	font-size: 12px;
+	width:800px;
+	text-align: left;
+}
+.left{
+	margin-top:20px;
+	background:#FFFFFF;
+	border:none;
+}
+
+
+a, a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+	color: #666666;
+}
+
+.bottom {
+	margin-top:20px;
+	background:#1E1E1E;
+	border:thin solid #000000;
+	font-size: 12px;
+	text-align: left;
+}
+
+/* Sliding panel stuff */
+#feedbackP{
+    width : 760px;
+    height : 500px;
+    position : fixed; /* we fix the position in a window */
+    z-index : 50;
+    /* we move a panel to the right downward: */
+    top : 100%; 
+    left : 100%;
+    /* we pull out the top: */  
+    margin-top : -25px;
+    margin-left : -130px;
+ 
+    border : 2px solid;
+    border-radius: 10px;
+     
+    padding: 5px;
+     
+    /* we set the effect of motion: */
+    -moz-transition:margin 0.3s linear; 
+    -o-transition:margin 0.3s linear;   
+    -webkit-transition:margin 0.3s linear;  
+    -ms-transition:margin 0.3s linear;  
+    transition:margin 0.3s linear;  
+}
+#feedbackP:hover{    
+    /* we pull out a panel that everyone could see it: */   
+    margin-top : -500px;
+    margin-left : -760px;
+    /* we set the effect of motion: */  
+    -moz-transition:margin 0.3s linear; 
+    -o-transition:margin 0.3s linear;   
+    -webkit-transition:margin 0.3s linear;  
+    -ms-transition:margin 0.3s linear;  
+    transition:margin 0.3s linear;  
+}
+ 
+/* We do the heading of the panel, as a corner of paper folder: */
+#feedbackButton{
+    font-weight : bold;
+    margin-left : 10px;
+    margin-top : -6px;
+    border : 1px solid #717277;
+    border-radius : 0px 0px 10px 10px;
+    text-align : center;
+    width : 100px;
+    margin-bottom : 5px;
+    color : #FFFFFF;
+    background : #717277;
+}
+ 
+#feedBackIframe{
+    width : 760px;
+    height : 500px;
+    border : 1px solid;
+}
+s
